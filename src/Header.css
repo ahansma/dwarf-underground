@@ -1,0 +1,58 @@
+.header {
+  height: 500px;
+  background: url('https://s-media-cache-ak0.pinimg.com/originals/13/b9/11/13b91109356b3808d8111bf6db8e40b2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: rgba(255,255,255,.7);
+}
+
+.header h1, .header h2, .header h3, .header h4 {
+  font-weight: 900;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.headline {
+  margin-top: 80px;
+}
+
+.header .clearfix {
+  margin: 20px;
+}
+
+.logo img {
+  height: 40px;
+  filter: invert(100%);
+  opacity: .7;
+}
+
+.nav-links a {
+  color: rgba(255,255,255,.7);
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links a:hover {
+  color: #CFB53B;
+}
+
+@media screen and (min-width: 40em) {
+  .headline {
+    margin-top: 50px;
+  }
+  
+  .header h1 {
+    font-size: 66px;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .headline {
+    margin-top: 30px;
+  }
+
+  .header h1 {
+    font-size: 85px;
+  }
+}
