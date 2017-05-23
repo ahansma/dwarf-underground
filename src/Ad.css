@@ -1,0 +1,43 @@
+aside {
+  padding: 30px;
+  background-color: rgba(207,181,59,.1);
+}
+
+.ad h3 {
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+}
+
+.ad img {
+  border-radius: 5px;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,.3);
+}
+
+.ad a {
+  color: #666;
+}
+
+.ad a:hover {
+  color: #333;
+}
+
+.ad h4 {
+  font-weight: 700;
+  color: #333;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.ad-image {
+  text-align: center;
+}
+
+.ad-image a {
+  display: block;
+}
+
+.ad-text {
+  font-size: .8em;
+  color: #666;
+}

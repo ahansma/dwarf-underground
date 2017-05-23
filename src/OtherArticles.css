@@ -1,0 +1,44 @@
+.other-articles {
+  border-top: 1px solid #ccc;
+  background-color: rgba(207,181,59,.1);
+  padding: 0;
+}
+
+.other-articles h2 {
+  text-align: center;
+  margin: 1em 0;
+  font-weight: 700;
+  color: #333;
+}
+
+.other-article {
+  position: relative;
+  padding: 0;
+  text-align: right;
+}
+
+.other-article p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: .5em;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5em;
+  opacity: .9;
+  text-shadow: 0 0 5px black;
+}
+
+.other-article img {
+  opacity: .8;
+  min-width: 100%;
+}
+
+.other-article:hover img {
+  opacity: 1;
+}
+
+.other-article:hover p {
+  opacity: 1;
+}

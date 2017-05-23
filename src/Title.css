@@ -1,0 +1,26 @@
+.avatar {
+  height: 80px;
+}
+
+.avatar img {
+  border-radius: 50%;
+  height: 80px;
+  display: inline-block;
+  margin-top: -24px;
+}
+
+.author-info {
+  display: inline-block;
+  padding: 10px;
+}
+
+.author-info p {
+  margin: 0;
+  padding: 5px 0;
+  color: #666;
+}
+
+.article-title {
+  font-weight: 700;
+  color: #333;
+}

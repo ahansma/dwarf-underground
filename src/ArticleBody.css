@@ -1,0 +1,22 @@
+.article-body {
+  margin-top: 30px;
+}
+
+.article-start {
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+.interject {
+  font-size: 1.5em;
+  font-weight: 700;
+  border-left: 4px solid #CFB53B;
+  padding-left: 10px;
+  color: #333;
+  margin: 20px 0;
+}
+
+.gold {
+  color: #CFB53B;
+}
