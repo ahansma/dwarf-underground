@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import NavLinks from './NavLinks'
 import './Header.css';
+
+const links = ['home', 'about', 'log in']
 
 class Header extends Component {
     render() {
@@ -9,11 +12,7 @@ class Header extends Component {
         <div className="float-left logo">
           <img src="http://www.iconninja.com/files/409/4/1006/axe-icon.svg" alt="axe" />
         </div>
-        <div className="float-right nav-links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Log in</a>
-        </div>
+        <NavLinks links ={links} />
       </div>
       <div className="headline text-center small-12 columns">
         <h1>The Dwarf Underground</h1>

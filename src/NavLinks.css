@@ -1,0 +1,9 @@
+.nav-links a {
+  color: rgba(255,255,255,.7);
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links a:hover {
+  color: #CFB53B;
+}
